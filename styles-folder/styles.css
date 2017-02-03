@@ -20,7 +20,7 @@
 	font-family:trajan sans-serif;
 }
 #title-div {
-	margin-top:25vh;
+	margin-top:15vh;
 }
 .title {
 	color:#FFFFFF;
@@ -55,4 +55,34 @@
 .link-hire:active {
 	color:#000000;
 	text-decoration:none;
+}
+.navigation {
+	margin-top:10px;
+}
+.fa-users {
+	font-size:50px;
+}
+#brainstorm {
+	margin-top:30px;
+}
+#bg-brainstorm {
+	background:url("../photos/collab-icon.png")no-repeat;
+	background-size:150px;
+	width:150px;
+	height:150px;
+	margin:0 auto;
+}
+#bg-ux-ui {
+	background:url("../photos/ux-ui-logo.png")no-repeat;
+	background-size:160px;
+	width:160px;
+	height:150px;
+	margin:0 auto;
+}
+#bg-code {
+	background:url("../photos/code.png")no-repeat;
+	background-size:150px;
+	width:150px;
+	height:150px;
+	margin:0 auto;
 }
