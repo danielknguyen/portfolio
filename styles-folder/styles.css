@@ -1,11 +1,32 @@
 #first-bg-image {
-	background:url("../photos/laptopcoffee.jpg")no-repeat;
+	background:url("../photos/coffeebackground.jpg")no-repeat;
 	background-size:cover;
 	background-position:center;	
 	width:100%;
 	height:100vh;
+
 }
 .container {
 	height:100%;
 	width:100%;
+}
+#dlogo {
+	height:75px;
+	margin-top:40px;
+}
+.name {
+	color:#FFFFFF;
+	font-size:50px;
+	font-family:trajan;
+}
+#title-div {
+	margin:25vh auto;
+}
+.title {
+	color:#FFFFFF;
+	font-size:50px;
+}
+.colab {
+	color:#FFFFFF;
+	font-size:30px;
 }
