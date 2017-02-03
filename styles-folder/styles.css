@@ -28,6 +28,7 @@
 	font-size:50px;
 }
 .colab {
+
 	color:#FFFFFF;
 	font-size:30px;
 }
@@ -39,7 +40,7 @@
 	border:1px solid #FDCD3B;
 	border-radius:30px;
 	padding:10px 20px;
-	font-size:18px;
+	font-size:14px;
 	font-family:trajan sans-serif;
 }
 .link-hire, .link-hire:link, .link-hire:visited {
