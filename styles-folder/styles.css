@@ -9,6 +9,7 @@
 .container {
 	height:100%;
 	width:100%;
+	min-width:500px;
 }
 #dlogo {
 	height:75px;
@@ -17,10 +18,10 @@
 .name {
 	color:#FFFFFF;
 	font-size:50px;
-	font-family:trajan;
+	font-family:trajan sans-serif;
 }
 #title-div {
-	margin:25vh auto;
+	margin-top:25vh;
 }
 .title {
 	color:#FFFFFF;
@@ -29,4 +30,29 @@
 .colab {
 	color:#FFFFFF;
 	font-size:30px;
+}
+#hire-me {
+	margin-top:15px;
+}
+.span-hire {
+	margin-top:5vh;
+	border:1px solid #FDCD3B;
+	border-radius:30px;
+	padding:10px 20px;
+	font-size:18px;
+	font-family:trajan sans-serif;
+}
+.link-hire, .link-hire:link, .link-hire:visited {
+	color:#FFFFFF;
+	text-decoration:none;
+}
+.link-hire:hover {
+	text-decoration:none;
+	padding:10px 20px;
+	border-color:#FDCD3B;
+	color:#000000;
+}
+.link-hire:active {
+	color:#000000;
+	text-decoration:none;
 }
