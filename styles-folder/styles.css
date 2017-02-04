@@ -8,7 +8,6 @@
 .container {
 	height:100vh;
 	width:100%;
-	min-width:500px;
 }
 #dlogo {
 	height:75px;
@@ -92,5 +91,4 @@
 	margin-top:15vh;
 }
 .skills-p {
-
 }
