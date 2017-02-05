@@ -4,18 +4,18 @@
 	background-size:cover;
 	background-position:center center;	
 	width:100%;
-	height:100vh;
 }
-.container {
+/*How to make div fit whole screen and background responsive while minimizing
+.container, .container-fluid {
 	height:100vh;
 	width:100%;
+}*/
+.nav-icon {
+	margin-top:10px;
 }
 #dlogo {
 	height:75px;
 	margin-top:40px;
-}
-#title-div {
-	margin-top:15vh;
 }
 .span-title, .span-title-name {
 	color:#FFFFFF;
@@ -36,7 +36,7 @@
 	font-size:14px;
 	font-family:trajan sans-serif;
 }
-.link-hire, .link-hire:link, .link-hire:visited {
+.link-hire, .link-hire:link, .link-hire:visited, .learn-more-link, .learn-more-link:link, .learn-more-link:visited {
 	color:#FFFFFF;
 	text-decoration:none;
 }
@@ -50,10 +50,30 @@
 	color:#000000;
 	text-decoration:none;
 }
+#learn-more {
+	margin-top:20vh;
+/* find a way to move this div to bottom of container */
+}
+.learn-p {
+	font-size:14px;
+}
+.learn-more-link:hover {
+	text-decoration:none;
+	color:#000000;
+}
+#container-2-bg {
+	background-color:#DADFE1;
+	background-size:cover;
+}
+#tech-div {
+	margin-top:10vh;
+}
+#tech-skills-row {
+	margin-top:10vh;
+}
 .span-tech-title, .span-tech-descrip {
 	font-family:trajan sans-serif;
 }
-
 #bg-brainstorm {
 	background:url("../photos/collab-icon.png")no-repeat;
 	background-size:150px;
