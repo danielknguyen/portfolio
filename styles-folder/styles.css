@@ -1,7 +1,8 @@
-#first-bg-image {
+
+#container-1-bg {
 	background:url("../photos/coffeebackground.jpg")no-repeat;
 	background-size:cover;
-	background-position:center;	
+	background-position:center center;	
 	width:100%;
 	height:100vh;
 }
@@ -13,20 +14,15 @@
 	height:75px;
 	margin-top:40px;
 }
-.name {
-	color:#FFFFFF;
-	font-size:50px;
-	font-family:trajan sans-serif;
-}
 #title-div {
 	margin-top:15vh;
 }
-.title {
+.span-title, .span-title-name {
 	color:#FFFFFF;
+	font-family:trajan sans-serif;
 	font-size:50px;
 }
-.colab {
-	color:#FFFFFF;
+.span-title-name {
 	font-size:30px;
 }
 #hire-me {
@@ -54,15 +50,10 @@
 	color:#000000;
 	text-decoration:none;
 }
-.navigation {
-	margin-top:10px;
+.span-tech-title, .span-tech-descrip {
+	font-family:trajan sans-serif;
 }
-.fa-users {
-	font-size:50px;
-}
-#brainstorm {
-	margin-top:30px;
-}
+
 #bg-brainstorm {
 	background:url("../photos/collab-icon.png")no-repeat;
 	background-size:150px;
@@ -83,12 +74,4 @@
 	width:150px;
 	height:150px;
 	margin:0 auto;
-}
-.tech-skills {
-	font-family:trajan sans-serif;
-}
-#skills {
-	margin-top:15vh;
-}
-.skills-p {
 }
