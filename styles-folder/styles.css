@@ -15,9 +15,11 @@ html, body {
 	height:75px;
 	margin-top:40px;
 }
+#title-div {
+	margin-top:5%;
+}
 .span-title, .span-title-name {
 	color:#FFFFFF;
-	font-family:trajan sans-serif;
 	font-size:50px;
 }
 .span-title-name {
@@ -32,7 +34,6 @@ html, body {
 	border-radius:30px;
 	padding:10px 20px;
 	font-size:14px;
-	font-family:trajan sans-serif;
 }
 .link-hire, .link-hire:link, .link-hire:visited, .learn-more-link, .learn-more-link:link, .learn-more-link:visited {
 	color:#FFFFFF;
@@ -49,6 +50,8 @@ html, body {
 	text-decoration:none;
 }
 #learn-more {
+	position:absolute;
+	bottom:0;
 /* find a way to move this div to bottom of container */
 }
 .learn-p {
@@ -67,9 +70,6 @@ html, body {
 }
 #tech-skills-row {
 	margin-top:10vh;
-}
-.span-tech-title, .span-tech-descrip {
-	font-family:trajan sans-serif;
 }
 #bg-brainstorm {
 	background:url("../photos/collab-icon.png")no-repeat;

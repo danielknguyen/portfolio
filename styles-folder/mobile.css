@@ -4,15 +4,60 @@
       	background-color:#6C7A89;
     }
     #dlogo {
+    	margin-top:20%;
 		height:150px;
 	}
 	.nav-p {
-		font-size:50px;
+		font-size:3em;
 	}
-	.span-title, .span-title-name {
-	font-size:60px;
+	#title-div {
+		margin-top:20%;
+	}
+	.span-title {
+	font-size:7em;
 	}
 	.span-title-name {
-	font-size:50px;
+	font-size:4em;
+	}
+	#hire-me {
+		margin-top:50px;
+	}
+	.span-hire {
+		padding:35px 20px;
+		border-radius:50px;
+	}
+	.link-hire {
+		font-size:2.5em;
+	}
+	.learn-p {
+		font-size:2em;
+	}
+	.tech-title {
+		font-size:5em;
+	}
+	.tech-descrip  {
+		font-size:3em;
+	}
+	.skills-title {
+		font-size:3em;
+	}
+	.skills-p {
+		font-size:2em;
+		padding:15px 80px;
+	}
+	#bg-brainstorm {
+	background-size:250px;
+	width:250px;
+	height:250px;
+	}
+	#bg-ux-ui {
+	background-size:260px;
+	width:260px;
+	height:250px;
+	}
+	#bg-code {
+	background-size:250px;
+	width:250px;
+	height:250px;
 	}
 }
