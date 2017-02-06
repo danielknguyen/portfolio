@@ -13,21 +13,23 @@
 	#title-div {
 		margin-top:20%;
 	}
-	#span-title {
-	font-size:7em;
+	.span-title {
+	font-size:8em;
 	}
 	.span-title-name {
-	font-size:4em;
+	font-size:3em;
 	}
-	#hire-me {
+	#hire-me, #learn-more {
 		margin-top:50px;
 	}
+	.learn-p {
+		padding:30px 20px;
+	}
 	.span-hire {
-		padding:35px 20px;
-		border-radius:50px;
+		padding:40px 47px;
 	}
 	.link-hire {
-		font-size:2.5em;
+		font-size:2em;
 	}
 	.learn-p {
 		font-size:2em;

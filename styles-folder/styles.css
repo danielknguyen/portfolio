@@ -25,13 +25,18 @@ html, body {
 .span-title-name {
 	font-size:30px;
 }
-#hire-me {
-	margin-top:15px;
+#hire-me, #learn-more {
+	margin-top:20px;
 }
 .span-hire {
 	margin-top:5vh;
 	border:1px solid #FDCD3B;
-	border-radius:30px;
+	padding:10px 33px;
+	font-size:14px;
+}
+.learn-p {
+	margin-top:5vh;
+	border:1px solid #FDCD3B;
 	padding:10px 20px;
 	font-size:14px;
 }
@@ -39,27 +44,17 @@ html, body {
 	color:#FFFFFF;
 	text-decoration:none;
 }
-.link-hire:hover {
+.link-hire:hover,.learn-more-link:hover {
 	text-decoration:none;
-	padding:0 20px;
 	border-color:#FDCD3B;
 	color:#000000;
+}
+.learn-p:hover,.span-hire:hover {
+	background-color:#F89406;
 }
 .link-hire:active {
 	color:#000000;
 	text-decoration:none;
-}
-#learn-more {
-	position:absolute;
-	bottom:0;
-/* find a way to move this div to bottom of container */
-}
-.learn-p {
-	font-size:14px;
-}
-.learn-more-link:hover {
-	text-decoration:none;
-	color:#000000;
 }
 #container-2-bg {
 	background-color:#DADFE1;
