@@ -87,3 +87,22 @@ html, body {
 	height:150px;
 	margin:0 auto;
 }
+#container-3-bg {
+	background-color:#34495E;
+}
+#work-experience-title {
+	margin:12vh 0;
+	color:#ffffff;
+}
+.work-img {
+	height:200px;
+}
+.company-name {
+	color:#ECECEC;
+}
+.job-title {
+	color:#E4F1FE;
+}
+.job-p {
+	color:#ECECEC;
+}
