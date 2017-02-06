@@ -1,4 +1,3 @@
-
 #container-1-bg {
 	background:url("../photos/coffeebackground.jpg")no-repeat;
 	background-size:cover;
@@ -50,7 +49,6 @@ html, body {
 	text-decoration:none;
 }
 #learn-more {
-	margin-top:20vh;
 /* find a way to move this div to bottom of container */
 }
 .learn-p {

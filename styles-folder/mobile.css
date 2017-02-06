@@ -1,0 +1,18 @@
+@media screen and (max-device-width: 480px) {
+	#container-1-bg {
+      	background:none;
+      	background-color:#6C7A89;
+    }
+    #dlogo {
+		height:150px;
+	}
+	.nav-p {
+		font-size:50px;
+	}
+	.span-title, .span-title-name {
+	font-size:60px;
+	}
+	.span-title-name {
+	font-size:50px;
+	}
+}
