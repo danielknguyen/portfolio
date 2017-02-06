@@ -4,7 +4,7 @@
       	background-color:#6C7A89;
     }
     #dlogo {
-    	margin-top:20%;
+    	margin-top:10%;
 		height:150px;
 	}
 	.nav-p {
@@ -14,7 +14,7 @@
 		margin-top:20%;
 	}
 	.span-title {
-	font-size:8em;
+	font-size:7em;
 	}
 	.span-title-name {
 	font-size:3em;
@@ -34,8 +34,8 @@
 	.learn-p {
 		font-size:2em;
 	}
-	.tech-title {
-		font-size:5em;
+	#tech-title {
+		font-size:7em;
 	}
 	.tech-descrip  {
 		font-size:3em;
@@ -44,7 +44,7 @@
 		font-size:3em;
 	}
 	.skills-p {
-		font-size:2em;
+		font-size:2.5em;
 		padding:15px 80px;
 	}
 	#bg-brainstorm {
