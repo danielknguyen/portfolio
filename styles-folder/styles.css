@@ -90,19 +90,12 @@ html, body {
 #container-3-bg {
 	background-color:#34495E;
 }
-#work-experience-title {
-	margin:12vh 0;
+.work-portfolio-title {
 	color:#ffffff;
+	margin-bottom:10vh;
 }
-.work-img {
-	height:200px;
-}
-.company-name {
-	color:#ECECEC;
-}
-.job-title {
-	color:#E4F1FE;
-}
-.job-p {
-	color:#ECECEC;
+.con-1 {
+	height:25%;
+	width:10%;
+	background-color:grey;
 }
