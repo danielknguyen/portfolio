@@ -47,6 +47,9 @@
 		font-size:2.5em;
 		padding:15px 80px;
 	}
+	#tech-skills-row {
+		width:100%;
+	}
 	#bg-brainstorm {
 	background-size:250px;
 	width:250px;

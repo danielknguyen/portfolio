@@ -94,8 +94,62 @@ html, body {
 	color:#ffffff;
 	margin-bottom:10vh;
 }
-.con-1 {
-	height:25%;
-	width:10%;
-	background-color:grey;
+.company {
+	color:#ffffff;
+}
+.job-title {
+	color:#ECECEC;
+}
+.work-descrip {
+	color:#E4F1FE;
+}
+.big-box-image {
+	height:250px;
+	width:300px;
+}
+.mini-box-image {
+	height:150px;
+}
+.mini-box {
+	display:inline;
+}
+.mini-box-row {
+	margin:10px;
+}
+
+
+
+
+
+
+
+
+/*helps with layout during minimization*/
+@media screen and (max-width: 449px) {
+	.span-title {
+		font-size:3em;
+	}
+	.span-title-name {
+		font-size:2.5em;
+	}
+}
+/*helps with layout during minimization*/
+@media (min-width: 450px) and (max-width: 990px) {
+	.span-title {
+		font-size:3em;
+	}
+	.span-title-name {
+		font-size:2.5em;
+	}
+	#tech-skills-row {
+		width:60%;
+		margin:0 auto;
+	}
+	#tech-div {
+		margin-bottom:10vh;
+	}
+	.mini-box-row {
+		width:500px;
+		margin:0 auto;
+	}
 }
