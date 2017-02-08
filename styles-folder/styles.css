@@ -40,7 +40,7 @@ html, body {
 	padding:10px 20px;
 	font-size:14px;
 }
-.link-hire, .link-hire:link, .link-hire:visited, .learn-more-link, .learn-more-link:link, .learn-more-link:visited {
+.link-hire, .link-hire:link, .link-hire:visited, .learn-more-link, .learn-more-link:link, .learn-more-link:visited .link-detail, .link-detail:link, .link-detail:visited {
 	color:#FFFFFF;
 	text-decoration:none;
 }
@@ -49,10 +49,16 @@ html, body {
 	border-color:#FDCD3B;
 	color:#000000;
 }
+.link-detail:hover {
+	text-decoration:none;
+	border-color:#FDCD3B;
+	background-color:#F89406;
+	color:#000000;
+}
 .learn-p:hover,.span-hire:hover {
 	background-color:#F89406;
 }
-.link-hire:active {
+.link-hire:active, .learn-more-link:active, .link-detail:active {
 	color:#000000;
 	text-decoration:none;
 }
@@ -110,13 +116,21 @@ html, body {
 .mini-box-image {
 	height:150px;
 }
-.mini-box {
-	display:inline;
-}
 .mini-box-row {
 	margin:10px;
 }
-
+.more-detail {
+	margin:10vh 0;
+	font-size:18px;
+	color:#ffffff;
+}
+.link-detail {
+	border:1px solid #FDCD3B;
+	padding:10px 20px;
+}
+.mini-box-image {
+	padding:15px;
+}
 
 
 
@@ -131,6 +145,10 @@ html, body {
 	}
 	.span-title-name {
 		font-size:2.5em;
+	}
+	.mini-box-row {
+		display:inline-block;
+		width:50%;
 	}
 }
 /*helps with layout during minimization*/
@@ -149,7 +167,8 @@ html, body {
 		margin-bottom:10vh;
 	}
 	.mini-box-row {
-		width:500px;
-		margin:0 auto;
+		width:45%;
+		display:inline-block;
+
 	}
 }
