@@ -12,7 +12,7 @@ html, body {
 	margin-top:10px;
 }
 #dlogo {
-	height:75px;
+	height:100px;
 	margin-top:40px;
 }
 #title-div {
@@ -162,6 +162,10 @@ html, body {
 
 /*helps with layout during minimization*/
 @media screen and (max-width: 449px) {
+	#container-1-bg {
+      	background:none;
+      	background-color:#6C7A89;
+    }
 	.span-title {
 		font-size:3em;
 	}
@@ -171,6 +175,10 @@ html, body {
 	.mini-box-row {
 		display:inline-block;
 		width:50%;
+		margin-top:10%;
+	}
+	.personal-box-image {
+		margin-top:20px;
 	}
 }
 /*helps with layout during minimization*/
@@ -189,10 +197,14 @@ html, body {
 		margin-bottom:10vh;
 	}
 	.mini-box-row {
-		width:25%;
+		width:27.5%;
+		margin-top:20px;
 		display:inline-block;
 	}
 	#personal-project-row {
 		width:50%;
+	}
+	.personal-box-image {
+		margin-top:20px;
 	}
 }
