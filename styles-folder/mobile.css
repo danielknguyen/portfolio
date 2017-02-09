@@ -5,98 +5,110 @@
     }
     #dlogo {
     	margin-top:10%;
-		height:150px;
+		height:250px;
 	}
 	.nav-p {
-		font-size:3em;
+		font-size:3.5em;
 	}
 	#title-div {
 		margin-top:20%;
 	}
 	.span-title {
-	font-size:7em;
+		font-size:7em;
 	}
 	.span-title-name {
-	font-size:3em;
+		font-size:4em;
 	}
 	#hire-me, #learn-more {
-		margin-top:50px;
+		margin-top:75px;
 	}
 	.learn-p {
 		padding:30px 20px;
 	}
 	.span-hire {
-		padding:40px 47px;
+		padding:50px 58px;
 	}
 	.link-hire {
-		font-size:2em;
+		font-size:3em;
 	}
 	.learn-p {
-		font-size:2em;
+		font-size:3em;
 	}
 	#tech-title {
 		font-size:7em;
 	}
 	.tech-descrip  {
-		font-size:3em;
+		font-size:4.5em;
 	}
 	.skills-title {
-		font-size:3em;
+		font-size:4em;
 	}
 	.skills-p {
-		font-size:2.5em;
+		font-size:3em;
 		padding:15px 80px;
 	}
 	#tech-skills-row {
 		width:100%;
 	}
 	#bg-brainstorm {
-	background-size:250px;
-	width:250px;
-	height:250px;
+		background-size:300px;
+		width:300px;
+		height:300px;
 	}
 	#bg-ux-ui {
-	background-size:260px;
-	width:260px;
-	height:250px;
+		background-size:360px;
+		width:360px;
+		height:350px;
 	}
 	#bg-code {
-	background-size:250px;
-	width:250px;
-	height:250px;
+		background-size:350px;
+		width:350px;
+		height:350px;
 	}
 	.work-portfolio-title {
-	margin-top:5vh;
-	font-size:7em;
+		margin-top:5vh;
+		font-size:7em;
 	}
 	.company {
-	font-size:3.5em;
+		font-size:3.5em;
 	}
 	.job-title {
-	font-size:3em;
+		font-size:3em;
 	}
 	.work-descrip {
-	font-size:2.5em;
+		font-size:2.5em;
 	}
 	.mini-box-row {
-	width:50%;
-	display:inline-block;
-	margin-top:2.5vh;
+		width:50%;
+		display:inline-block;
+		margin-top:2.5vh;
 	}
 	.big-box-image {
-	margin-top:5%;
-	height:500px;
-	width:560px;
+		margin-top:5%;
+		height:500px;
+		width:560px;
 	}	
 	.mini-box-image {
-	height:250px;
+		height:250px;
 	}
 	.more-detail {
-	font-size:2.5em;
+		font-size:2.5em;
 	}
 	.link-detail {
-	border:1px solid #FDCD3B;
-	padding:30px 30px;
+		border:1px solid #FDCD3B;
+		padding:30px 30px;
 	}
-
+	#personal-project-row {
+		width:80%;
+		margin:0 auto;
+		padding:5%;
+	}
+	.personal-project-title {
+		font-size:7em;
+		margin:5vh 0;
+	}
+	.link-personal-projects:link {
+	padding:40px 40px;
+	font-size:3em;
+	}
 }
