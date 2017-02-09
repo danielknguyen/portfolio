@@ -1,5 +1,5 @@
 #container-1-bg {
-	background:url("../photos/coffeebackground.jpg")no-repeat;
+	background:url("../photos/coffeebackground.jpg")no-repeat fixed;
 	background-size:cover;
 	background-position:center center;	
 	min-height:100%;
@@ -159,12 +159,25 @@ html, body {
 	background-color:#F89406;
 	color:#ffffff;
 }
+#container-5-bg {
+	background:url("../photos/laptopcoffee.jpg") no-repeat fixed;
+	background-size:cover;
+	background-position:center center;
+	min-height:100%;
+}
+
+
+
 
 /*helps with layout during minimization*/
 @media screen and (max-width: 449px) {
 	#container-1-bg {
       	background:none;
       	background-color:#6C7A89;
+    }
+    #container-5-bg {
+      	background:none;
+      	background-color:#446CB3;
     }
 	.span-title {
 		font-size:3em;
