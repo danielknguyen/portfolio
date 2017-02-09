@@ -44,7 +44,7 @@ html, body {
 	color:#FFFFFF;
 	text-decoration:none;
 }
-.link-hire:hover,.learn-more-link:hover {
+.link-hire:hover, .learn-more-link:hover {
 	text-decoration:none;
 	border-color:#FDCD3B;
 	color:#000000;
@@ -128,15 +128,36 @@ html, body {
 	border:1px solid #FDCD3B;
 	padding:10px 20px;
 }
+#container-4-bg {
+	background-color:#ABB7B7;
+}
 .mini-box-image {
 	padding:15px;
 }
-
-
-
-
-
-
+#personal-project-row {
+	width:75%;
+	margin:0 auto;
+	padding:5%;
+}
+.personal-project-title {
+	color: #000000;
+}
+.more-personal-projects {
+	margin:5vh 0;
+}
+.link-personal-projects, .link-personal-projects:link, .link-personal-projects:visited {
+	color:black;
+	text-decoration:none;
+	margin-top:5vh;
+	border:1px solid #FDCD3B;
+	padding:15px 20px;
+	font-size:18px;
+}
+.link-personal-projects:hover {
+	border-color:#FDCD3B;
+	background-color:#F89406;
+	color:#ffffff;
+}
 
 /*helps with layout during minimization*/
 @media screen and (max-width: 449px) {
@@ -169,5 +190,8 @@ html, body {
 	.mini-box-row {
 		width:25%;
 		display:inline-block;
+	}
+	#personal-project-row {
+		width:50%;
 	}
 }
