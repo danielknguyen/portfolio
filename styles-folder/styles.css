@@ -146,13 +146,13 @@ html, body {
 	margin:5vh 0;
 }
 .link-personal-projects, .link-personal-projects:link, .link-personal-projects:visited {
-	color:black;
+	color:#000000;
 	text-decoration:none;
 	margin-top:5vh;
 	border:1px solid #000000;
 	padding:15px 20px;
 	font-size:18px;
-	border-color:;
+	border-color:#000000;
 }
 .link-personal-projects:hover {
 	border-color:#FFFFFF;
@@ -160,10 +160,41 @@ html, body {
 	color:#ffffff;
 }
 #container-5-bg {
-	background:url("../photos/laptopcoffee.jpg") no-repeat fixed;
+	background:url("../photos/codebyte3.png") no-repeat fixed;
 	background-size:cover;
 	background-position:center center;
 	min-height:100%;
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center; 
+}
+.flex-box {
+	background-color:transparent;
+	width:75%;
+	height:350px;
+	border:7.5px solid #FFFFFF;
+}
+.lets-build-title, .lets-build-p, .contact-me-link {
+	color:#FFFFFF;
+}
+.contact-me-p {
+	margin-top:35px;
+}
+.contact-me-link, .contact-me-link:link, .contact-me-link:visited {
+	color:#ffffff;
+	text-decoration:none;
+	border:1px solid #000000;
+	border-radius:25px;
+	padding:15px 20px;
+	font-size:14px;
+	border-color:#FDCD3B;
+}
+.contact-me-link:hover {
+	border-color:#FDCD3B;
+	background-color:#F89406;
+	color:#000000;
+	padding:15px 35px;
 }
 
 
@@ -193,6 +224,15 @@ html, body {
 	.personal-box-image {
 		margin-top:20px;
 	}
+	.flex-box {
+		height:400px;
+	}
+	.lets-build-title{
+		font-size:2em;
+	}
+	.lets-build-p{
+		font-size:1.5em;
+	}
 }
 /*helps with layout during minimization*/
 @media (min-width: 450px) and (max-width: 990px) {
@@ -220,4 +260,14 @@ html, body {
 	.personal-box-image {
 		margin-top:20px;
 	}
+	.flex-box {
+		height:375px;
+	}
+	.lets-build-title{
+		font-size:2em;
+	}
+	.lets-build-p{
+		font-size:1.5em;
+	}
+	
 }
