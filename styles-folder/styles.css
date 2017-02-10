@@ -155,9 +155,9 @@ html, body {
 	border-color:#000000;
 }
 .link-personal-projects:hover {
-	border-color:#FFFFFF;
+	border-color:#FDCD3B;
 	background-color:#F89406;
-	color:#ffffff;
+	color:#000000;
 }
 #container-5-bg {
 	background:url("../photos/codebyte3.png") no-repeat fixed;
