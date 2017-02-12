@@ -142,4 +142,17 @@
 		font-size:3em;
 		border-color:#FDCD3B;
 	}
+	.footer-logo {
+		height:128px;
+		width:128px;
+		opacity:.5;
+	}
+	.footer-logo:hover {
+		opacity:1;
+		padding:1px;
+	}
+	.flex1 p {
+		font-size:3em;
+	}
+
 }

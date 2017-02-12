@@ -151,7 +151,7 @@ html, body {
 	margin-top:5vh;
 	border:1px solid #000000;
 	padding:15px 20px;
-	font-size:18px;
+	font-size:15px;
 	border-color:#000000;
 }
 .link-personal-projects:hover {
@@ -196,9 +196,27 @@ html, body {
 	color:#000000;
 	padding:15px 35px;
 }
-
-
-
+#container-6-bg {
+	background-color:#336E7B;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	justify-content:space-around;
+	height:20%;
+}
+.footer-logo {
+	height:32px;
+	width:32px;
+	opacity:.5;
+}
+.footer-logo:hover {
+	opacity:1;
+	padding:1px;
+}
+.fa-copyright {
+		color:#ffffff;
+}
 
 /*helps with layout during minimization*/
 @media screen and (max-width: 449px) {
@@ -268,6 +286,10 @@ html, body {
 	}
 	.lets-build-p{
 		font-size:1.5em;
+	}
+	.footer-logo {
+		height:32px;
+		width:32px;
 	}
 	
 }
