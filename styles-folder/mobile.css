@@ -151,5 +151,7 @@
 	.flex1 p {
 		font-size:3em;
 	}
-
+	.nav-link {
+	font-size:2em;
+	}
 }
