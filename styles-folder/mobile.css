@@ -154,4 +154,15 @@
 	.nav-link {
 	font-size:2em;
 	}
+	input[type=text] {
+		width:100%;
+		font-size:3em;
+	}
+	input[type=submit] {
+		font-size:3em;
+	}
+	textarea {
+		font-size:3em !important;
+		height:200px;
+	}
 }
